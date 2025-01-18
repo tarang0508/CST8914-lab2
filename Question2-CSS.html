@@ -3,28 +3,73 @@
 <head>
    <title>Question 2 - CSS</title>
    <style>
-    .mainsection a {
-      text-decoration: none;
-      color: #414040;
-      outline: none;
+    
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
     }
 
     
-    </style>
+    .mainsection {
+      padding: 20px;
+    }
+
+    
+    .mainsection h1 {
+      font-size: 2em;
+      color: white;
+      text-align: left;
+      background-color: #FFFFFF; 
+      background-image: url('https://img.freepik.com/free-vector/blank-brown-notepaper-design-vector_53876-173620.jpg?t=st=1737091234~exp=1737094834~hmac=f53b12c8370205b29dc8bd5d144ab0efe72e99006d974a222387981c34149cbf&w=360'); /* Optional background image */
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 400px 100px;
+      padding: 20px;
+     /* border-radius: 8px;*/ 
+      margin: 0 0 20px;
+    }
+
+    
+    .mainsection a {
+      text-decoration: none;
+      color: #0066cc; 
+      font-weight: bold;
+    }
+
+    .mainsection a:focus,
+    .mainsection a:hover {
+      outline: 2px solid #ff9900;
+      background-color: #f0f8ff;
+      border-radius: 4px;
+      padding: 2px 4px;
+    }
+
+   
+    .mainsection ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .mainsection ul li {
+      margin: 10px 0;
+    }
+   </style>
 </head>
 <body>
 <div class="mainsection">
-<h1><img src="lab2/lab2-imageoftext.gif" alt="Shopping categories"></h1>
+  
+  <h1>Shopping Categories</h1>
 
-<ul>
-  <li><a href="#">Animals</a></li>
-  <li><a href="#">Computers</a></li>
-  <li><a href="#">Diversity and inclusion</a></li>
-  <li><a href="#">Food</a></li>
-  <li><a href="#">Medicine</a></li>
-  <li><a href="#">Music</a></li>
-</ul>
+  <ul>
+    <li><a href="#">Animals</a></li>
+    <li><a href="#">Computers</a></li>
+    <li><a href="#">Diversity and Inclusion</a></li>
+    <li><a href="#">Food</a></li>
+    <li><a href="#">Medicine</a></li>
+    <li><a href="#">Music</a></li>
+  </ul>
 </div>    
-
 </body>
 </html>
